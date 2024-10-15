@@ -21,7 +21,7 @@ const Skills = () =>{
 
     return(
         <>
-            <section className=" w-full h-screen flex justify-center items-center " >
+            <section className=" w-full my-10 min-h-screen flex justify-center items-center " >
                 <div className="p-2 flex flex-col gap-7 items-center w-full bo rder-2 border-green-500  " >
                     <div>
                         <h2 className="text-center text-5xl logo-font">Skills</h2>
