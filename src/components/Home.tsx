@@ -22,8 +22,7 @@ const Home = () =>{
 
     return(
         <>
-            <section className="w-full h-screen bord er-2" >
-                <div className="flex justify-center items-center w-full h-full ">
+            <section className="w-full min-h-screen bord er-2 flex justify-center items-center">
                     <div className=" grid w-[75%] gap-5 bord er-2 max-lg:mt-16 max-lg:gap-7 max-lg:small-home-cont-grid lg:lg-home-cont-grid ">
                         <div className="home-links-anime flex max-lg:flex-row flex-col gap-5 lg:mr-10 r-2 forward-links-cont " >
                             {
@@ -54,7 +53,6 @@ const Home = () =>{
                             <img className=" animate-[pop-in_.5s] w-full min-h-40 transition" src={homeSecPic} alt="" />
                         </div>
                     </div>
-                </div>
             </section>
         </>
     )
